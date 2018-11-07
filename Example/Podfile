@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LoadingRetry_Example' do
+  pod 'LoadingRetry', :path => '../'
+
+  target 'LoadingRetry_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
