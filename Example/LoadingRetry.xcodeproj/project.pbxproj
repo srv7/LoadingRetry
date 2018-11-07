@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AFDF5522192B933002E246C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDF5512192B933002E246C /* ViewModel.swift */; };
+		3AFDF5542192BB21002E246C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDF5532192BB21002E246C /* LoadingViewController.swift */; };
+		3AFDF5562192BB58002E246C /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDF5552192BB58002E246C /* ErrorViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,7 +33,10 @@
 /* Begin PBXFileReference section */
 		0A24E9166F9A2DA7E44845BB /* Pods-LoadingRetry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadingRetry_Tests.release.xcconfig"; path = "Target Support Files/Pods-LoadingRetry_Tests/Pods-LoadingRetry_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		24D3ACF1F048867B798924C9 /* Pods_LoadingRetry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadingRetry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		407C37F4E7280789C81F5EF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3AFDF5512192B933002E246C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3AFDF5532192BB21002E246C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		3AFDF5552192BB58002E246C /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		407C37F4E7280789C81F5EF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LoadingRetry_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingRetry_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +49,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6091F8F6CD46087B87C051DF /* Pods-LoadingRetry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadingRetry_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LoadingRetry_Tests/Pods-LoadingRetry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDD3FFC7B728E3B3C0A26991 /* Pods_LoadingRetry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadingRetry_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC79CD9313487E93AF070FED /* LoadingRetry.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LoadingRetry.podspec; path = ../LoadingRetry.podspec; sourceTree = "<group>"; };
-		CF900B9095EA14717C9A1186 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC79CD9313487E93AF070FED /* LoadingRetry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = LoadingRetry.podspec; path = ../LoadingRetry.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF900B9095EA14717C9A1186 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D802AF3EC6FF041D3AEE4AA6 /* Pods-LoadingRetry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadingRetry_Example.release.xcconfig"; path = "Target Support Files/Pods-LoadingRetry_Example/Pods-LoadingRetry_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E4F7259FEF9ACB3BF8119F6E /* Pods-LoadingRetry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadingRetry_Example.debug.xcconfig"; path = "Target Support Files/Pods-LoadingRetry_Example/Pods-LoadingRetry_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +83,6 @@
 				6091F8F6CD46087B87C051DF /* Pods-LoadingRetry_Tests.debug.xcconfig */,
 				0A24E9166F9A2DA7E44845BB /* Pods-LoadingRetry_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,6 +121,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				3AFDF5532192BB21002E246C /* LoadingViewController.swift */,
+				3AFDF5552192BB58002E246C /* ErrorViewController.swift */,
+				3AFDF5512192B933002E246C /* ViewModel.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -213,6 +221,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A9KH5WMYTC;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -293,13 +302,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LoadingRetry_Example/Pods-LoadingRetry_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
 				"${BUILT_PRODUCTS_DIR}/LoadingRetry/LoadingRetry.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoadingRetry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -336,7 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				3AFDF5522192B933002E246C /* ViewModel.swift in Sources */,
+				3AFDF5562192BB58002E246C /* ErrorViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3AFDF5542192BB21002E246C /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +500,9 @@
 			baseConfigurationReference = E4F7259FEF9ACB3BF8119F6E /* Pods-LoadingRetry_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
 				INFOPLIST_FILE = LoadingRetry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -497,7 +517,9 @@
 			baseConfigurationReference = D802AF3EC6FF041D3AEE4AA6 /* Pods-LoadingRetry_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9KH5WMYTC;
 				INFOPLIST_FILE = LoadingRetry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

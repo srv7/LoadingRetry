@@ -1,0 +1,35 @@
+PODS:
+  - Action (3.8.0):
+    - RxCocoa (~> 4.3.0)
+    - RxSwift (~> 4.3.0)
+  - LoadingRetry/Core (0.1.0)
+  - LoadingRetry/RxSwift (0.1.0):
+    - LoadingRetry/Core
+    - RxCocoa
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
+
+DEPENDENCIES:
+  - Action
+  - LoadingRetry/RxSwift (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Action
+    - RxCocoa
+    - RxSwift
+
+EXTERNAL SOURCES:
+  LoadingRetry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Action: 2275d04a407ecaf46a58d58a304388a28155a0a1
+  LoadingRetry: 875cbbd9179d92dc0d8aee3dae115a722656a76a
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+
+PODFILE CHECKSUM: 6fd33bdea3a8558ca6ee86589d84001bc6e5d206
+
+COCOAPODS: 1.6.0.beta.2

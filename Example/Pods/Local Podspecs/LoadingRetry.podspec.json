@@ -1,0 +1,42 @@
+{
+  "name": "LoadingRetry",
+  "version": "0.1.0",
+  "summary": "A short description of LoadingRetry.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liubo/LoadingRetry",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liubo": "liubo004@126.com"
+  },
+  "source": {
+    "git": "https://github.com/liubo/LoadingRetry.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_version": "4.2",
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "LoadingRetry/Classes/Core/**/*",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "RxSwift",
+      "source_files": "LoadingRetry/Classes/RxSupport/**/*",
+      "dependencies": {
+        "LoadingRetry/Core": [
+
+        ],
+        "RxCocoa": [
+
+        ]
+      }
+    }
+  ]
+}

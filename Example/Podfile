@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'LoadingRetry_Example' do
-  pod 'LoadingRetry', :path => '../'
+  pod 'LoadingRetry/RxSwift', :path => '../'
+  pod 'Action'
 
   target 'LoadingRetry_Tests' do
     inherit! :search_paths
