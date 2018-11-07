@@ -1,6 +1,5 @@
 # LoadingRetry
 
-
 <html> <p align="center">
 
 <img src="images/image.gif"/>
@@ -9,7 +8,7 @@
 
 </html>
 
-[![CI Status](https://img.shields.io/travis/liubo/LoadingRetry.svg?style=flat)](https://travis-ci.org/liubo/LoadingRetry)
+[![CI Status](https://img.shields.io/travis/srv7/LoadingRetry.svg?style=flat)](https://travis-ci.org/srv7/LoadingRetry)
 [![Version](https://img.shields.io/cocoapods/v/LoadingRetry.svg?style=flat)](https://cocoapods.org/pods/LoadingRetry)
 [![License](https://img.shields.io/cocoapods/l/LoadingRetry.svg?style=flat)](https://cocoapods.org/pods/LoadingRetry)
 [![Platform](https://img.shields.io/cocoapods/p/LoadingRetry.svg?style=flat)](https://cocoapods.org/pods/LoadingRetry)
@@ -20,9 +19,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-ios | swift
--- | -- 
-9.0+ | 4.2+
+iOS | 9.0+
+---|---
+swift | 4.2+
+
 
 ## Usage
 
@@ -88,7 +88,7 @@ viewModel.fetchDataAction.executing
 
 ## Author
 
-liubo, liubo004@126.com
+srv7, liubo004@126.com
 
 ## License
 

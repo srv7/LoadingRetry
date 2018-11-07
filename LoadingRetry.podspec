@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
 simple loading and retry tool
                        DESC
 
-  s.homepage         = 'https://github.com/liubo/LoadingRetry'
+  s.homepage         = 'https://github.com/srv7/LoadingRetry'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liubo' => 'liubo004@126.com' }
-  s.source           = { :git => 'https://github.com/liubo/LoadingRetry.git', :tag => s.version.to_s }
+  s.author           = { 'srv7' => 'liubo004@126.com' }
+  s.source           = { :git => 'https://github.com/srv7/LoadingRetry.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.2'
