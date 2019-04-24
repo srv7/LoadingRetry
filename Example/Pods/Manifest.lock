@@ -1,14 +1,14 @@
 PODS:
-  - Action (3.8.0):
-    - RxCocoa (~> 4.3.0)
-    - RxSwift (~> 4.3.0)
-  - LoadingRetry/Core (0.1.0)
-  - LoadingRetry/RxSwift (0.1.0):
+  - Action (3.11.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - LoadingRetry/Core (1.0.2)
+  - LoadingRetry/RxSwift (1.0.2):
     - LoadingRetry/Core
     - RxCocoa
-  - RxCocoa (4.3.1):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.3.1)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
 
 DEPENDENCIES:
   - Action
@@ -25,11 +25,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Action: 2275d04a407ecaf46a58d58a304388a28155a0a1
-  LoadingRetry: 875cbbd9179d92dc0d8aee3dae115a722656a76a
-  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
-  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  Action: 689181e4c3f6566844178d8a7da6fef39a9597fc
+  LoadingRetry: 1d4c825b60316a01dfb4c65efea7682dfec8b29b
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
 PODFILE CHECKSUM: 6fd33bdea3a8558ca6ee86589d84001bc6e5d206
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.1

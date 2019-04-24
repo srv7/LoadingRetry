@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LoadingRetry'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Loading and Retry'
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ simple loading and retry tool
   s.source           = { :git => 'https://github.com/srv7/LoadingRetry.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   
   s.default_subspec = 'Core'
   s.subspec 'Core' do |core|
